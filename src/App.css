@@ -12,14 +12,19 @@
   gap: 10px;
   justify-content: space-between;
 }
+.buttons button {
+  background-color: #00ABE4;
+}
 .buttons button:hover{
-  background-color: rgb(69, 69, 69);
-  /* background-color: transparent; */
+  /* background-color: rgb(69, 69, 69); */
+  background-color: rgb(19, 105, 255);
   transition: 0.7s ease;
   border-color: transparent;
 }
 
 .count {
+  font-weight: 800;
+  color: #1A325B;
   padding: 40px 0;
 }
 
@@ -28,6 +33,10 @@
   flex-direction:column;
   justify-content: center;
   align-items: center;
+}
+.results p{
+  font-weight: 800;
+  color: #1A325B;
 }
 
 .progress-bar {
@@ -43,7 +52,7 @@
 .progress1 {
   height: 10px;
   width: 100%;
-  background-color: red;
+  background-color: #294980;
   border-radius: 5px;
   transition: width 0.5s ease-in-out;
 }

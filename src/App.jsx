@@ -16,7 +16,7 @@ function App() {
       setHistory(newHistory);
       setCount(newCount);
       setCurrentIndex(currentIndex + 1);
-      console.log(history, newCount)
+      // console.log(history, newCount)
     }
     else {
       if (showError === false) {
